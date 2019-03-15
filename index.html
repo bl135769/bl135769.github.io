@@ -181,11 +181,16 @@
                 <iframe src="https://htmlpen.com/bclyon4718/kidneycylinder/" height="500" width="700"></iframe>
                 
                 <p>To write an equation for the protein concentration in the urine as a function of the distance from the bottom of the container, it is first necessary to solve for the height of the container.  We know that the volume is 2 liters, wich is 2000 ml, which is 2000 cubic cm.  We also know that the diameter is 10 cm, so the radius is 5 cm.  Using the formula for the volume of a cylinder, we can plug in this information to get:</p>
-               
+               <img src="pic1.png">
                 <p>From here we can solve for h to get:</p>
+                <img src="pic2.png">
+                
                 <p>Now we need to find a linear equation for the protein concentration. Using the protein concentrations and heights as ordered pairs, we can calculate the slope of this line.  The ordered pairs are:</p>
+                <img src="pic3.png">
                 <p>Using the formula for slope, we can plug in these ordered pairs to get:</p>
+                <img src="pic4.png">
                 <p>Now we just need to add a constant.  Since the concentration starts at 0.96 mg/ml when y = 0, the constant is 0.96.  Plugging in these values creates the following formula and answer to this part of the question:</p>
+                <img src="pic5.png">
                 <p><b>(ii) Determine the quantity of protein in a slice of the cylinder extending from height y to y + Dy.</b></p>
                 
                 <p>Here, we can use our equation from above as a density equation, 
@@ -196,13 +201,19 @@
                 <iframe src="https://htmlpen.com/bclyon4718/kidneyslice/" height="500" width="700"></iframe>
                 
                 <p>Now, to find the volume of the slice, we first need to find the area of a circular base with radius of 5 cm.  This is below:</p>
-                 <p>The volume of the slice is the area times the height, and here the height is Dy, so the volume of the slice is: (Note that this is an approximation, not an equality)</p>
-                 <p>The mass of the slice is the volume times the density equation. (Note again that this is an approximation, not an equality). This is below, and is the answer to this part of the problem:</p>
+                 <img src="pic6.png">
+                <p>The volume of the slice is the area times the height, and here the height is Dy, so the volume of the slice is: (Note that this is an approximation, not an equality)</p>
+                 <img src="pic7.png">
+                <p>The mass of the slice is the volume times the density equation. (Note again that this is an approximation, not an equality). This is below, and is the answer to this part of the problem:</p>
+                <img src="pic8.png">
                 <p><b>(iii) Write an integral that gives the total quantity of protein in the urine sample. Does this patient require active treatment?</b></p>
                 
                 <p>An integral for the total mass of protein in the urine sample can be created from a Riemann sum of the mass of the slices.  Using the information from above, this sum is shown below. (Note again that this is an approximation, not an equality).</p>
+                <img src="pic9.png">
                 <p>This can be turned into a definite integral, with y ranging from 0 to h, with h defined above as about 25.5 cm.</p>
+                <img src="pic10.png">
                 <p>Evaluating this integral produces:</p>
+                <img src="pic11.png">
                 <p>Since 1000 mg = 1 g, this is about 1.07 g.  A patient requires treatment if there is more than 1 g of protein in their urine over 24 hours, so yes, this patient does require treatment.</p>
                 
                 <p><b>
@@ -210,13 +221,25 @@
                   </b></p>
                 
                 <p>The alternative formula given here can be expressed as:</p>
+                <img src="pic12.png">
                 <p>Plugging in these values yields:</p>
-               <p>And this evaluates to:</p>
+               <img src="pic13.png">
+                <p>And this evaluates to:</p>
+                <img src="pic14.png">
                 <p>This is sufficiently close to the answer from the integral.  To generalize this for the integral, we first start with:</p>
+                <img src="pic15.png">
                 <p>Antidifferentiation yields:</p>
+                <img src="pic16.png">
                 <p>Plugging in these values gives:</p>
+                <img src="pic17.png">
                 <p>Through simplification, we find the following steps:</p>
+                <img src="pic18.png">
+                <img src="pic19.png">
+                <img src="pic20.png">
+                <img src="pic21.png">
+                <img src="pic22.png">
                 <p>Which brings us back to the other formula:</p>
+                <img src="pic23.png">
                 <p>In conclusion, the mass of protein in a patient's urine can be measured to test if they may need to be treated for kidney disease.  If a patient has more than 1 gram of protein in their urine over 24 hours, they require medical treatment.  In this example, the patient had about 1.07 grams of protein in their urine, so they would need to be treated.  The mass of protein can be determined through finding the masses of slices over the container of urine, with this mass being found from the volume and a density function describing the change in protein concentration over the container.  There is also a shortcut method, in which the average protein concentration can be multiplied by the volume to get the total mass.  These formulas work for no matter what the radius of the cylindrical container, the volume collected, and the top and bottom protein concentrations.  This is a very useful and practical application of calculus, which is used in real clinics to real diagnose patients.  It is important to be as acurate as possible, so that a patient is not misdagnosed, which could endanger their health if they are not given a required treatment, or cost them a lot of money if they are actually healthy.  I enjoy using calculus in these real world applications, becuase it affects the lives of real people.</p>
                 
               </div>
