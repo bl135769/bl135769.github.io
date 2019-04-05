@@ -88,7 +88,10 @@
              
               <iframe src="https://htmlpen.com/bclyon4718/boxlid/" height="500" width="700"></iframe>
               <br>
-              <p>The question asks for the volume of the solid that the two cylinders enclose, modeled below  Scroll on the mouse to zoom, and refresh the page to restart rotation.  Visit <a href='https://www.glowscript.org/#/user/lyondelsordo.betta/folder/BoxLidProject/'>my GlowScript folder</a> to view the code snippets for this project.</p>
+              <p>The question asks for the volume of the solid that the two cylinders enclose, modeled below  Scroll on the mouse to zoom,
+                and refresh the page to restart rotation.  
+                Visit <a href='https://www.glowscript.org/#/user/lyondelsordo.betta/folder/BoxLidProject/'>my GlowScript folder</a> to view 
+                the code snippets for this project.</p>
               
               <p>To calculate the volume, it is necessary to create slices, which have cross-shaped cross sections. The area of this slice is the area of the box minus the area of the "holes" or blank spaces inside.  If the side length of a hole is x, then the area of the slice can be modeled as shown below:</p>
               
@@ -295,7 +298,7 @@
                    reveals a pattern in the coefficients and exponents.
                 </p>
                 <img src="a3.png"
-                     style="width:100%;max-width:1000px;margin-top:5px;"><br><br>
+                     style="width:80%;max-width:1000px;margin-top:5px;"><br><br>
                 
                 <p><b>(iv) Immediately after taking the eighth dose (of 1 tablet).</b>
                 </p>
@@ -328,6 +331,48 @@
                 </p>
                 <img src="a7.png"
                      style="height:60%;max-width:1000px;margin-top:5px;"><br><br>
+                
+                <p><b>(c) If a patient takes all the prednisone tablets as prescribed, how many days after taking the eighth dose is
+                  there less than 3% of a prednisone tablet in the patient’s body? The half-life of prednisone is about 24 hours.</b>
+                </p>
+                <p>This problem uses the idea from (a)(vi), that each additional day, the amount of the drug from the 8th day will
+                decay by the rate of an additional x. This is the amount on the last day, multiplied by N number of x's. The amount on the 8th day
+                is the sum given in the previous question. This can then be
+                used to solve for N when the expression is set equal to 0.03.  We are also given x, the rate of decay, as 1/2 becuase 
+                prednisone has a half life of 24 hours, so for each N in days, the amount of the drug decreases by 1/2.  Using this information
+                  yeilds the following equation:</p>
+                
+                <img src="a8.png"
+                     style="width:100%;max-width:1000px;margin-top:5px;"><br><br>
+                
+                <p> This can be graphed to find the point of intersection between the left and right sides of the equation.  
+                  This graph is below. Visit <a href='https://www.glowscript.org/#/user/lyondelsordo.betta/folder/AsthmaProject/'>my 
+                  GlowScript folder</a> to view 
+                the code snippets for this project.
+                </p>
+                <p> The graph shows that the point of intersection is:
+                </p>
+                <img src="a9.png"
+                     style="width:60%;max-width:1000px;margin-top:5px;"><br><br>
+                <p> However, we must consider that N (the independent variable) can only be a discrete, whole number becuase it is 
+                  an index of a series.  This means that we must go to the next whole value of N, which is 8.  This point is:
+                </p>
+                <img src="a10.png"
+                     style="width:60%;max-width:1000px;margin-top:5px;"><br><br>
+                <p> So this means that on the 8th day (N = 8) after finishing the pills, there is only 1.53% of a tablet left in the body. 
+                  There would be less than 3% on
+                  the 7.03th day, but the first whole day is the 8th.
+                </p>
+                <p><b> A patient is prescribed N tablets of prednisone the first day, N−1 the second, and one tablet
+                  fewer each day until all tablets are gone. Write a formula that represents T_N, 
+                  the number of prednisone tablets in the body 
+                  immediately after taking all tablets. Find a closed-form sum for T_N.</b>
+                </p>
+                <p>This requires a form of the series from part (b).  That one has an index that runs from 1 to 8, so instead this new one 
+                  will have an index that runs from 1 to N.  We also know x, which is 1/2.  Using this data gives:
+                </p>
+                 <img src="a12.png"
+                     style="width:60%;max-width:1000px;margin-top:5px;"><br><br>
 
               </div>
               
