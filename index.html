@@ -322,13 +322,36 @@
                 <p><b>(b) Find a closed form for the sum T = 8x<sup>7</sup> + 7x<sup>6</sup> + 6x<sup>5</sup> +···+ 2x + 1, which is the number 
                   of prednisone tablets in the body immediately after taking the eighth dose.</b>
                 </p>
-                <p>To write this series in closed form, it is translated into sigma notation.  We can switch around the order of the series
+                <p>To write this series in closed form, it is can be helpful to first write it in sigma notation.  We can switch around the order of the series
                   due to the commutative property of addition,
                   to look at it building up from 1 + 2x + 3x<sup>2</sup> +...+ 7x<sup>6</sup> + 8x<sup>7</sup>. 
                   The pattern here involves a coefficient equal
                   to the index, and an exponent equal to the index - 1.  The index runs from 1 to 8.  This can be written as:
                 </p>
                 <img src="a7.png"
+                     style="height:60%;max-width:1000px;margin-top:5px;"><br><br>
+                <p>We can notice a pattern:  that this series is the derivative of a geometric series. We can integrate the series to get:
+                </p>
+                <img src="a7n1.png"
+                     style="height:60%;max-width:1000px;margin-top:5px;"><br><br>
+                <img src="a7n2.png"
+                     style="height:60%;max-width:1000px;margin-top:5px;"><br><br>
+                <p>This is a geometric series with a common difference of r and with 8 terms.  Using the formula for the sum of a finite
+                  geometric series, we get:
+                </p>
+                <img src="a7n3.png"
+                     style="height:60%;max-width:1000px;margin-top:5px;"><br><br>
+                <p>To use this relationship, we can take the derivative of this series:
+                </p>
+                 <img src="a7n4.png"
+                     style="height:60%;max-width:1000px;margin-top:5px;"><br><br>
+                <p>This shows that the orginal series is equal to the derivative of this geometric series.
+                </p>
+                <img src="a7n5.png"
+                     style="height:60%;max-width:1000px;margin-top:5px;"><br><br>
+                <p>The derivative is expanded below, which is the closed form of this series, and x can be plugged in to quickly find the sum.
+                </p>
+                <img src="a7n6.png"
                      style="height:60%;max-width:1000px;margin-top:5px;"><br><br>
                 
                 <p><b>(c) If a patient takes all the prednisone tablets as prescribed, how many days after taking the eighth dose is
@@ -369,9 +392,14 @@
                   immediately after taking all tablets. Find a closed-form sum for T<sub>N</sub>.</b>
                 </p>
                 <p>This requires a form of the series from part (b).  That one has an index that runs from 1 to 8, so instead this new one 
-                  will have an index that runs from 1 to N.  We also know x, which is 1/2.  Using this data gives:
+                  will have an index that runs from 1 to N.  We also know x, which is 1/2.  Using this data can provide the sigma notation for this series:
                 </p>
                  <img src="a12.png"
+                     style="width:60%;max-width:1000px;margin-top:5px;"><br><br>
+                <p>Using the closed form found in part (b), we can see that when N was 8, the exponents and coefficient in the deriv were in terms
+                  of 8 (two 8's and a 7).  This means that this can be rewritten in terms of N and N-1, as shown below. This is the closed form:
+                </p>
+                 <img src="a12n1.png"
                      style="width:60%;max-width:1000px;margin-top:5px;"><br><br>
                 
                 <p>In conclusion, the amount of prednisone in a patient's body can be determined using a series with a known rate 
